@@ -1,6 +1,6 @@
 import React from "react";
 
-import Aux from "../../containers/Auxiliary";
+import Aux from "../../hoc/_Aux";
 import classes from "./Layout.module.css";
 
 const layout = (props) => (
@@ -9,4 +9,5 @@ const layout = (props) => (
 		<main className={classes.Content}>{props.children}</main>
 	</Aux>
 );
+
 export default layout;
