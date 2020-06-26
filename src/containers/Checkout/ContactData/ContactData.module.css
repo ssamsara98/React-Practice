@@ -13,9 +13,3 @@
 		width: 500px;
 	}
 }
-
-@media (min-width: 1000px) {
-	.ContactData {
-		width: 800px;
-	}
-}
